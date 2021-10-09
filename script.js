@@ -14,7 +14,7 @@ const completeBtn = document.getElementById('complete-button');
 // Globel Variable
 let countdownTitle = '';
 let countdownDate = '';
-let countdownValue = Date;
+let countdownValue = new Date();
 let countdownActive ;
 let savedCountdown;
 
